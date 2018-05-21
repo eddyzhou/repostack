@@ -17,7 +17,7 @@ setup(
     package_data={"repostack": ["templates/*.tpl"]},
     install_requires=requires,
     entry_points={
-        'console_scripts': ['cfcli=repostack:cfcli'],
+        'console_scripts': ['cfcli=repostack:cli'],
     },
     author='eddyzhou',
     author_email='zhouqian1103@gmail.com',
